@@ -71,13 +71,22 @@ Simple app that tracks our goals, made using React Native.
 2. Run `npm install -g expo-cli`;
 3. In your repo directory, run: `npx create-expo-app ProjectName`;
 4. `cd ProjectName`;
-5. `npx expo start`;
+5. `yarn install`;
+6. `npx expo start`;
 
 ## Running the Project
 
 - `yarn android`;
 - `yarn ios`;
 - `yarn web`;
+
+## Running the app on a Real Device (Preview)
+
+1. For iOS, visit the App Store and [download the Expo app](https://apps.apple.com/br/app/expo-go/id982107779);
+2. Open the terminal and run: `yarn start`;
+3. Get the QR Code on the terminal and scan it with your phone;
+4. Give phone permissions and wait it until gets loaded;
+5. Watch terminal for possible errors;
 
 ### References
 
