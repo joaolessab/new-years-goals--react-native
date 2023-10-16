@@ -69,10 +69,17 @@ Simple app that tracks our goals, made using React Native.
 
 1. Install latest `Node.js LTS` package;
 2. Run `npm install -g expo-cli`;
-3. In your repo directory, run: `expo init ProjectName`;
+3. In your repo directory, run: `npx create-expo-app ProjectName`;
 4. `cd ProjectName`;
-5. `npm start`;
+5. `npx expo start`;
+
+## Running the Project
+
+- `yarn android`;
+- `yarn ios`;
+- `yarn web`;
 
 ### References
 
 - [React Native | Official Docs](https://reactnative.dev/);
+- [Expo | Official Docs](https://docs.expo.dev/);
