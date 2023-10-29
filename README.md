@@ -122,7 +122,7 @@ Simple app that tracks our goals, made using React Native.
 6. Open it;
 7. To change device version: `File` >> `Simulator` >> Pick the version you want;
 
-### References
+## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
 - [Expo | Official Docs](https://docs.expo.dev/);
