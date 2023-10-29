@@ -4,8 +4,8 @@ Simple app that tracks our goals, made using React Native.
 
 ## What is React Native?
 
-- You can build native apps (iOS and Android), using React.js and distribute them on the official stores;
 - `React.js` **is a library that is independent** from `React Native` though;
+- You can build native apps (iOS and Android), using React.js and distribute them on the official stores;
 
 ### React.js
 
@@ -80,7 +80,7 @@ Simple app that tracks our goals, made using React Native.
 2. Press `a` or run `yarn android`;
    - Android Studio Emulator needs to be running before executing command;
 3. Press `i` or run `yarn ios`;
-   - If iOs Simulator does not work, run `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` in your terminal;
+   - If iOs Simulator does not work, run: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` in your terminal;
 4. Press `w` or run `yarn web`;
 
 - You can serve on both simulators at the same time, yes!
