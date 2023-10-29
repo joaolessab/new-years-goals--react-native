@@ -151,6 +151,11 @@ const MyTitle = props => {
 - Pretty much, yes! But made for mobile Native apps;
 - You can use a `<View>` inside another `<View>` and control the styles in the StyleSheets;
 
+### Does CSS cascade in React Native?
+
+- No! You need to create a separated style object;
+- There's not inheritance as well;
+
 ## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
