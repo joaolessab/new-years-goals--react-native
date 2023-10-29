@@ -124,7 +124,7 @@ Simple app that tracks our goals, made using React Native.
 
 ## FAQ
 
-### Why common HTML don't work on React Native?
+### Why common HTML does not work on React Native?
 
 - Because they don't the the `dom` setup;
 - Native devices are not browsers. Check the full list of [React Native components](https://reactnative.dev/docs/components-and-apis);
