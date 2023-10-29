@@ -146,6 +146,11 @@ const MyTitle = props => {
 - The CSS language does not exist here;
 - Instead, you can either use Inline Styles or StyleSheet objects (styles written in JS);
 
+### Is `<View>` component equivalent to a `<div>` component?
+
+- Pretty much, yes! But made for mobile Native apps;
+- You can use a `<View>` inside another `<View>` and control the styles in the StyleSheets;
+
 ## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
