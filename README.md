@@ -122,7 +122,26 @@ Simple app that tracks our goals, made using React Native.
 6. Open it;
 7. To change device version: `File` >> `Simulator` >> Pick the version you want;
 
+## FAQ
+
+### Why common HTML don't work on React Native?
+
+- Because they don't the the `dom` setup. Native devices are not browsers
+- Check the full list of [React Native components](https://reactnative.dev/docs/components-and-apis);
+- Besides that, it works normally as an usual React app. You can combine those Native components to build your own customized components, for example:
+
+```
+const MyTitle = props => {
+   return (
+      <View>
+         <Text>{props.title}</Text>
+      </View>
+   )
+};
+```
+
 ## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
+- [React Native | Components Reference](https://reactnative.dev/docs/components-and-apis);
 - [Expo | Official Docs](https://docs.expo.dev/);
