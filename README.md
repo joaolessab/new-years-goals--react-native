@@ -77,8 +77,10 @@ Simple app that tracks our goals, made using React Native.
 ## Running the Project (Virtual Device)
 
 1. Run`yarn start`;
-2. Press `a` or run `yarn android` | Android Studio Emulator needs to be running;
+2. Press `a` or run `yarn android`;
+   - Android Studio Emulator needs to be running before executing command;
 3. Press `i` or run `yarn ios`;
+   - If iOs Simulator does not work, run `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` in your terminal;
 4. Press `w` or run `yarn web`;
 
 - You can serve on both simulators at the same time, yes!
