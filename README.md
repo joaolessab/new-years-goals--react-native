@@ -126,8 +126,8 @@ Simple app that tracks our goals, made using React Native.
 
 ### Why common HTML don't work on React Native?
 
-- Because they don't the the `dom` setup. Native devices are not browsers
-- Check the full list of [React Native components](https://reactnative.dev/docs/components-and-apis);
+- Because they don't the the `dom` setup;
+- Native devices are not browsers. Check the full list of [React Native components](https://reactnative.dev/docs/components-and-apis);
 - Besides that, it works normally as an usual React app. You can combine those Native components to build your own customized components, for example:
 
 ```
@@ -139,6 +139,12 @@ const MyTitle = props => {
    )
 };
 ```
+
+### What about CSS?
+
+- There's no CSS in React Native apps. Why? Because again, it's not a browser;
+- The CSS language does not exist here;
+- Instead, you can either use Inline Styles or StyleSheet objects (styles written in JS);
 
 ## References
 
