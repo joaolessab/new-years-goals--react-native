@@ -156,6 +156,14 @@ const MyTitle = props => {
 - No! You need to create a separated style object;
 - There's not inheritance as well;
 
+### Scrolling on Native Apps
+
+- If you want to scroll views in React Native, you have to explictly tell it;
+- You can use the component `<ScrollView>`;
+- Keep in mind that if you want to setup a height limitation, you have to setup a parent `<View>` for it;
+- Keep in mind that this component has different effects for each mobile system;
+- But, we have a downside here: `<ScrollView>` is great if you want to add scroll around some content;
+
 ## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
