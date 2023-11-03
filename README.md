@@ -162,7 +162,9 @@ const MyTitle = props => {
 - You can use the component `<ScrollView>`;
 - Keep in mind that if you want to setup a height limitation, you have to setup a parent `<View>` for it;
 - Keep in mind that this component has different effects for each mobile system;
-- But, we have a downside here: `<ScrollView>` is great if you want to add scroll around some content;
+- But, we have a downside here: `<ScrollView>` is great if you want to add scroll around some content. If you want to render a very long list, `<ScrollView>` will render it all behind the scenes and this can be a performance issue;
+- `<FlatList>` is the component indicated to render bigger lists, so the user will only see the data as it gets closer to it and its a way more performatic;
+- By default, `<FlatList>` looks for the key object in the array. Otherwise, you can use the `keyExtractor` prop to indicate the `key` field that you want to use;
 
 ## References
 
