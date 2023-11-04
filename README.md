@@ -166,7 +166,7 @@ const MyTitle = props => {
 - `<FlatList>` is the component indicated to render bigger lists, so the user will only see the data as it gets closer to it and its a way more performatic;
 - By default, `<FlatList>` looks for the key object in the array. Otherwise, you can use the `keyExtractor` prop to indicate the `key` field that you want to use;
 
-### `<Pressable>` component should replace `<Toucable>` ?
+### `<Pressable>` component should replace `<Touchable>` ?
 
 - Yes, it should. They are old React Native way;
 
