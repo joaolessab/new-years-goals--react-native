@@ -3,13 +3,23 @@ import {
   StyleSheet,
   View,
   FlatList,
+  Button,
 } from 'react-native';
 
 import GoalItem from './components/GoalItem';
 import GoalInput from './components/GoalInput';
 
 export default function App() {
+  const [modalIsVisible, setModalIsVisible] = useState(false);
   const [goals, setGoals] = useState([]);
+
+  const startAddGoalHandler = () => {
+    setModalIsVisible(true);
+  };
+
+  const endAddGoalHandler = () => {
+    setModalIsVisible(false);
+  };
 
   const addGoalHandler = enteredGoalText => {
     // best approach to set new value depending on a previous status, 
@@ -18,6 +28,8 @@ export default function App() {
       ...currentGoals,
       {text: enteredGoalText, id: Math.random().toString()},
     ]);
+
+    setModalIsVisible(false);
   };
 
   const deleteGoalHandler = id => {
@@ -28,7 +40,17 @@ export default function App() {
 
   return (
     <View style={styles.appContainer}>
-      <GoalInput onAddGoal={addGoalHandler}/>
+      <Button
+        title="Add new goal"
+        color="#5e0acc"
+        onPress={startAddGoalHandler}
+      />
+      
+      <GoalInput
+        onAddGoal={addGoalHandler}
+        onCancel={endAddGoalHandler}
+        visible={modalIsVisible}
+      />
 
       <View style={styles.goalsContainer}>
         <FlatList
