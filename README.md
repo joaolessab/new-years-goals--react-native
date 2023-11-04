@@ -174,6 +174,12 @@ const MyTitle = props => {
 
 - Because with `.bind()` is a standard JavaScript function, which basically allows us to pre-configure a function for future execution;
 
+### How do I style effects onPress?
+
+- For Android, you can use props like: `android_ripple={{ color: '#210644' }}`;
+- For iOs, you may want to add a function inside the style prop when an event is pressed, for example:
+  `style={({ pressed }) => pressed && styles.pressedItem }`;
+
 ## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
