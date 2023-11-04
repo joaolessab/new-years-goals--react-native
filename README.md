@@ -4,8 +4,8 @@ Simple app that tracks our goals, made using React Native.
 
 ## What is React Native?
 
-- `React.js` **is a library that is independent** from `React Native` though;
 - You can build native apps (iOS and Android), using React.js and distribute them on the official stores;
+- `React.js` **is a library that is independent** from `React Native` though;
 
 ### React.js
 
