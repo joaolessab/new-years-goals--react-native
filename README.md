@@ -180,6 +180,11 @@ const MyTitle = props => {
 - For iOs, you may want to add a function inside the style prop when an event is pressed, for example:
   `style={({ pressed }) => pressed && styles.pressedItem }`;
 
+### How to setup a StatusBar visible to the user?
+
+- With expo, you can import `import { StatusBar } from 'expo-status-bar'` and set its style as "auto", "light", "dark", etc;
+- The example would be like: `<StatusBar style="light" />`;
+
 ## References
 
 - [React Native | Official Docs](https://reactnative.dev/);
