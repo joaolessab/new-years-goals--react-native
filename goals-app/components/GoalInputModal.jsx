@@ -5,6 +5,8 @@ import {
   Button,
   TextInput,
   Modal,
+  Text,
+  Pressable,
 } from 'react-native';
 
 import Target from './Target';
@@ -39,19 +41,15 @@ const GoalInputModal = ({
         
         <View style={styles.buttonContainer}>
           <View style={styles.buttonWrapper}>
-            <Button
-              title="Cancel"
-              onPress={onCancel}
-              color="#f31282"
-            />
+            <Pressable onPress={onCancel}>
+              <Text style={styles.cancelButton}>Cancel</Text>
+            </Pressable>
           </View>
 
           <View style={styles.buttonWrapper}>
-            <Button
-              title="Add Goal"
-              onPress={addGoalHandler}
-              color="#fff"
-            />
+            <Pressable onPress={addGoalHandler}>
+              <Text style={styles.AddButton}>Add Goal</Text>
+            </Pressable>
           </View>
         </View>
       </View>
@@ -84,8 +82,23 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
   },
   buttonWrapper: {
-    width: 100,
+    width: 150,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: "white",
+    padding: 10,
+    borderRadius: 10,
     marginHorizontal: 8,
+  },
+  cancelButton: {
+    fontFamily: 'Merriweather',
+    fontSize: 16,
+    color: "#f30",
+  },
+  AddButton: {
+    fontFamily: 'Merriweather',
+    fontSize: 16,
+    color: "#000",
   },
   image: {
     width: 100,
