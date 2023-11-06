@@ -122,6 +122,13 @@ Simple app that tracks our goals, made using React Native.
 6. Open it;
 7. To change device version: `File` >> `Simulator` >> Pick the version you want;
 
+## Setting up custom Fonts
+
+1. Create the file `react-native.config.js` in the root folder of the project;
+2. Run in your terminal: `npx react-native-asset`;
+3. Call the fontFamily in your stylesheet;
+4. Restart the App + Emulators;
+
 ## FAQ
 
 ### Why common HTML does not work on React Native?

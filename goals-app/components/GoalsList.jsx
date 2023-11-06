@@ -9,7 +9,6 @@ import GoalItem from './GoalItem';
 
 const GoalsList = ({
   onDeleteGoal,
-  onOpenModal,
   goals
 }) => {
   return (
@@ -36,7 +35,7 @@ const GoalsList = ({
 
           (
             <View style={styles.emptyContainer}>
-              <Text>You have no goals set.</Text>
+              <Text style={styles.emptyListText}>You have no goals set.</Text>
             </View>
           )
         }
@@ -60,6 +59,10 @@ const styles = StyleSheet.create({
   goalsContainer: {
     flex: 5,
   },
+  emptyListText: {
+    fontFamily: 'Merriweather',
+    fontSize: 16,
+  }
 });
 
 export default GoalsList;

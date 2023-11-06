@@ -75,6 +75,8 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: '100%',
     padding: 16,
+    fontFamily: 'Merriweather',
+    fontSize: 16,
     marginVertical: 20,
   },
   buttonContainer: {

@@ -41,8 +41,9 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     color: "#EAC07F",
-    fontSize: 20,
-    fontWeight: 'bold'
+    fontFamily: 'Merriweather',
+    fontSize: 40,
+    textAlign: 'center',
   },
   actionContainer: {
     alignItems: "flex-end",
