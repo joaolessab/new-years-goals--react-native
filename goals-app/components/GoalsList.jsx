@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     flex: 5,
   },
   emptyListText: {
-    fontFamily: 'Merriweather',
+    fontFamily: 'Merriweather-Regular',
     fontSize: 16,
   }
 });

@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
   },
   headerTitle: {
     color: "#EAC07F",
-    fontFamily: 'Merriweather',
+    fontFamily: 'Merriweather-Black',
     fontSize: 40,
     textAlign: 'center',
   },

@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
   goalText: {
     color: "#000",
     padding: 8,
-    fontFamily: 'Merriweather',
+    fontFamily: 'Merriweather-Regular',
     fontSize: 16,
   }
 });

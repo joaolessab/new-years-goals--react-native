@@ -4,6 +4,7 @@ import {
   View,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { useFonts } from 'expo-font';
 
 import MainHeader from './components/MainHeader';
 import GoalInputModal from './components/GoalInputModal';
@@ -12,6 +13,15 @@ import GoalsList from './components/GoalsList';
 export default function App() {
   const [modalIsVisible, setModalIsVisible] = useState(false);
   const [goals, setGoals] = useState([]);
+
+  const [fontsLoaded] = useFonts({
+    'Merriweather-Regular': require('./assets/fonts/Merriweather-Regular.ttf'),
+    'Merriweather-Black': require('./assets/fonts/Merriweather-Black.ttf'),
+  });
+
+  if (!fontsLoaded) {
+    return null;
+  }
 
   const startAddGoalHandler = () => {
     setModalIsVisible(true);

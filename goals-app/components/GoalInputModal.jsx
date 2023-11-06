@@ -73,7 +73,7 @@ const styles = StyleSheet.create({
     borderRadius: 10,
     width: '100%',
     padding: 16,
-    fontFamily: 'Merriweather',
+    fontFamily: 'Merriweather-Regular',
     fontSize: 16,
     marginVertical: 20,
   },
@@ -91,12 +91,12 @@ const styles = StyleSheet.create({
     marginHorizontal: 8,
   },
   cancelButton: {
-    fontFamily: 'Merriweather',
+    fontFamily: 'Merriweather-Black',
     fontSize: 16,
     color: "#f30",
   },
   AddButton: {
-    fontFamily: 'Merriweather',
+    fontFamily: 'Merriweather-Black',
     fontSize: 16,
     color: "#000",
   },
