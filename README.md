@@ -11,6 +11,8 @@ Simple app that tracks our New Year's Goals, made using React Native.
     - [What is React Native?](#what-is-react-native)
     - [React.js](#react.js)
     - [React Native](#react-native)
+    - [Under the Hood of React Native components]()
+    - [What about the logic?]()
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Running the Project](#running-the-project-%EF%B8%8F)
@@ -47,6 +49,19 @@ Simple app that tracks our New Year's Goals, made using React Native.
 - In the end, `React Native` is like `react-dom`, it just does not target the web (the browser as platform) - but instead: iOS and Android;
 - `React Native` gives you all the components and the APIs that you need to interact with those platforms and to build apps for those platforms;
 - We will write our code in `React.js` and then just use these extra `React Native` components;
+
+#### Under the Hood of React Native components
+
+| Web Browser (`react-dom`) | Native Component (Android) | Native Component (iOS) | React Native JSX |
+| ------------------------- | -------------------------- | ---------------------- | ---------------- |
+| `<div>`                   | `android.View`             | `UIView`               | `<View>`         |
+| `<input>`                 | `EditText`                 | `UITextField`          | `<TextInput>`    |
+| ...                       | ...                        | ...                    | ...              |
+
+#### What about the logic?
+
+- Unlike the UI elements, the logic is not compile like the native components, but instead it's running on a JS thread (that's hosted by `React Native` in the native app that was built);
+- `React Native` basically spins up a simple JS process and manages this process for you and allow this process to talk to the underlying platform, which would be iOS and Android - through a basic translation bridge;
 
 ### Prerequisites
 
