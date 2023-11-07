@@ -255,12 +255,28 @@ const MyTitle = props => {
 
 #### Mode 1
 
-1. Create the file `react-native.config.js` in the root folder of the project;
-2. Run in your terminal: `npx react-native-asset`;
-3. Call the fontFamily in your stylesheet;
-4. Restart the App + Emulators;
+1. In the `App.js` file, `import { useFonts } from 'expo-font'`;
+2. Load the fonts right after declaring the page component:
+
+```
+const [fontsLoaded] = useFonts({
+   'Merriweather-Regular': require('./assets/fonts/Merriweather-Regular.ttf'),
+   'Merriweather-Black': require('./assets/fonts/Merriweather-Black.ttf'),
+});
+
+if (!fontsLoaded) {
+   return null;
+}
+```
 
 #### Mode 2
+
+1. Create the file `react-native.config.js` in the root folder of the project;
+2. Run in your terminal: `npx react-native-asset`;
+3. Call the `fontFamily` in your stylesheet;
+4. Restart the App + Emulators;
+
+5. Call the `fontFamily` in your stylesheet;
 
 ## References 📚
 
