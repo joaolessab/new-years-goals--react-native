@@ -7,6 +7,7 @@ Simple app that tracks our New Year's Goals, made using React Native.
 ## Table of Contents
 
 - [Getting Started](#getting-started-)
+  - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Running the Project](#running-the-project-%EF%B8%8F)
@@ -18,13 +19,20 @@ Simple app that tracks our New Year's Goals, made using React Native.
 
 ## Getting Started 🚀
 
-## Prerequisites
+### Introduction
+
+#### What is React Native?
+
+- You can build native apps (iOS and Android), using React.js and distribute them on the official stores;
+- `React.js` **is a library that is independent** from `React Native` though;
+
+### Prerequisites
 
 Before you get started, ensure you have the following installed:
 
 - [Node.js and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm);
 
-## Installation
+### Installation
 
 Clone the repository and install the dependencies:
 
