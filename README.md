@@ -8,8 +8,8 @@ Simple app that tracks our New Year's Goals, made using React Native.
 
 - [Getting Started](#getting-started-)
   - [Introduction](#introduction)
-    - [What's React Native?](#whats-react-native)
-    - [What's React.js](#react.js)
+    - [What's React Native?](#what-is-react-native)
+    - [What's React.js](#what-is-react.js)
     - [Under the Hood of React Native components](#under-the-hood-of-react-native-components)
     - [What about the logic?](#what-about-the-logic)
   - [Prerequisites](#prerequisites)
@@ -19,9 +19,9 @@ Simple app that tracks our New Year's Goals, made using React Native.
 - [Demo](#demo-)
 - [Technology Stack](#technology-stack-)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq-)
-- [Bonus](#bonus)
-  - [Creating a new Project with React Native]()
-  - [Setting up custom Fonts]()
+- [Bonus](#bonus-)
+  - [Creating a new Project with React Native](#creating-a-new-project-with-react-native)
+  - [Setting up custom Fonts](#setting-up-custom-fonts)
 - [References](#references-)
 
 ## Getting Started 🚀
