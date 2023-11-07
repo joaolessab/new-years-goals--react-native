@@ -57,9 +57,7 @@ Explain the structure of your project. Briefly describe what each folder/file co
 
 ## Demo 🎥
 
-Include a gif or screenshot of your project in action.
-
-![Demo Gif](demo.gif)
+https://github.com/joaolessab/goals-app--react-native/assets/21973502/d3b2c681-61e4-4e85-a4d1-edcbd5283d91
 
 ## Technology Stack 🛠
 
