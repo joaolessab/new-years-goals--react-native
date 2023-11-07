@@ -6,7 +6,6 @@ Simple app that tracks our New Year's Goals, made using React Native.
 
 ## Table of Contents
 
-- [Technology Stack](#technology-stack-)
 - [Getting Started](#getting-started-)
   - [Introduction](#introduction)
     - [What's React Native?](#what-is-react-native)
@@ -28,12 +27,6 @@ Simple app that tracks our New Year's Goals, made using React Native.
   - [Creating a new Project with React Native](#creating-a-new-project-with-react-native)
   - [Setting up custom Fonts](#setting-up-custom-fonts)
 - [References](#references-)
-
-## Technology Stack 🛠
-
-This project was built using the following technologies and stacks:
-
-- [React Native](https://reactnative.dev/);
 
 ## Getting Started 🚀
 
