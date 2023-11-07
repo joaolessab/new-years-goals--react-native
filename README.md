@@ -14,11 +14,11 @@ Simple app that tracks our New Year's Goals, made using React Native.
     - [Under the Hood of React Native components](#under-the-hood-of-react-native-components)
     - [What about the logic?](#what-about-the-logic)
   - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Setting up a local development environment]()
+- [Setting up a local development environment](#setting-up-a-local-development-environment)
   - [For Android](#for-android)
   - [For iOs](#for-ios)
 - [Running the Project](#running-the-project-%EF%B8%8F)
+  - [Installation](#installation)
   - [Virtual Device](#virtual-device)
   - [Real Device (Preview)](#real-device-preview)
 - [Project Structure](#project-structure-)
@@ -117,6 +117,8 @@ Before you get started, ensure you have the following installed:
 6. Open it;
 7. To change device version: `File` >> `Simulator` >> Pick the version you want;
 
+## Running the Project 🏃‍♂️
+
 ### Installation
 
 Clone the repository and install the dependencies:
@@ -126,8 +128,6 @@ git clone https://github.com/joaolessab/awesome-react-native-project.git
 cd awesome-react-native-project
 npm install
 ```
-
-## Running the Project 🏃‍♂️
 
 ### Virtual Device
 
