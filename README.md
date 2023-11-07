@@ -117,9 +117,9 @@ Before you get started, ensure you have the following installed:
 Clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/joaolessab/awesome-react-native-project.git
-cd awesome-react-native-project
-npm install
+git clone https://github.com/joaolessab/new-years-goals--react-native.git
+cd app
+yarn install
 ```
 
 ### Virtual Device
@@ -158,7 +158,7 @@ Explain the structure of your project. Briefly describe what each folder/file co
 
 ## Demo 🎥
 
-https://github.com/joaolessab/goals-app--react-native/assets/21973502/d3b2c681-61e4-4e85-a4d1-edcbd5283d91
+https://github.com/joaolessab/new-years-goals--react-native/assets/21973502/d3b2c681-61e4-4e85-a4d1-edcbd5283d91
 
 ## Frequently Asked Questions (FAQ) ❓
 

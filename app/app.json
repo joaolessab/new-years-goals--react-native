@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "goals-app",
-    "slug": "goals-app",
+    "name": "new-years-goals",
+    "slug": "new-years-goals",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
