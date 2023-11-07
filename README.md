@@ -173,6 +173,45 @@ const MyTitle = props => {
 - With expo, you can import `import { StatusBar } from 'expo-status-bar'` and set its style as "auto", "light", "dark", etc;
 - The example would be like: `<StatusBar style="light" />`;
 
+### 10. What's the difference between Expo CLI vs. React Native CLI?
+
+- Expo is in the end a third-party service (free) that you can use. You don't have to sign-up or pay anything;
+- Expo also have some extra features that you can pay and needed to sign-up, but to build the apps, you don't actually need those;
+- When using Expo CLI and other couple of tools provided by Expo, writing native apps with React Native is more convenient than with just the React Native CLI and has less friction;
+- You can still leave this Expo approach ecosystem anytime, if you need to - you can switch ˜eject" anytime;
+- Expo is a way easier than React Native CLI;
+
+### 11. Why do we have the React Native CLI then?
+
+- Because it existed before Expo and it's the tool provided by the React Native team and the community around React Native;
+- It gives you a bare-bone React Native development setup (you need to set up way more);
+- Less convinience features, and if you need to tap into certain native device features, such as device camera or something, it's going to requires extra work when not having the Expo around it;
+- The good thing of React Native CLI is that's easier to integrate with native source code written in Java or Objectivce-C, SWIFT or Kotlin, so if you must mix JS code and native device source code, then using just their React Native CLI could be beneficial (the idea behing React Native it's that you don't have to mix code or do this kind of thing too often);
+
+- **Expo is not just about the tool that creates the projects, but it will also give us helpful packages and tools that we can use when writing the code**;
+
+## Bonus 🎁
+
+### Creating a new Project with React Native
+
+1. Install latest `Node.js LTS` package;
+2. Run `npm install -g expo-cli`;
+3. In your repo directory, run: `npx create-expo-app ProjectName`;
+4. `cd ProjectName`;
+5. `yarn install`;
+6. `npx expo start`;
+
+### Setting up custom Fonts
+
+#### Mode 1
+
+1. Create the file `react-native.config.js` in the root folder of the project;
+2. Run in your terminal: `npx react-native-asset`;
+3. Call the fontFamily in your stylesheet;
+4. Restart the App + Emulators;
+
+#### Mode 2
+
 ## References 📚
 
 - [React Native | Official Docs](https://reactnative.dev/);
