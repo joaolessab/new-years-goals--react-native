@@ -1,31 +1,3 @@
-# goals-app--react-native
-
-Simple app that tracks our goals, made using React Native.
-
-## What is React Native?
-
-- You can build native apps (iOS and Android), using React.js and distribute them on the official stores;
-- `React.js` **is a library that is independent** from `React Native` though;
-
-### React.js
-
-- A JS library for building user interfaces;
-- Typically used for web development;
-- But it's actually the `react-dom` that adds web support to it!
-- React itself without `react-dom` is platform-agnostic - which means that you can use `React.js` in conjunction with `react-dom` to build web apps, but `React.js` library actually does not care about the underlying platform;
-- React just give you tools for managing state, for building virtual component trees, and then you need an extra library like `react-dom` for **translating the result that React produced to an actual platform** - like the browser;
-
-### React Native
-
-- It's basically an alternative to `react-dom`, therefore;
-- `React Native` gives you a collection of "special" React components - which you can use in your JSX code;
-- `React Native` ships with built-in components that you can use, and those components are then compiled to native UI elements for the iOS and Android platforms;
-- `React Native` will also take care about this compilation step;
-- In addiation, `React Native` also exposes certain native platform APIs (like using the device camera), so that you can use such features in your JS code, even though you need to tap into native device APIs for that;
-- In the end, `React Native` is like `react-dom`, it just does not target the web (the browser as platform) - but instead: iOS and Android;
-- `React Native` gives you all the components and the APIs that you need to interact with those platforms and to build apps for those platforms;
-- We will write our code in `React.js` and then just use these extra `React Native` components;
-
 ## Under the Hood of React Native components
 
 | Web Browser (`react-dom`) | Native Component (Android) | Native Component (iOS) | React Native JSX |
