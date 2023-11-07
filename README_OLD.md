@@ -1,32 +1,3 @@
-## Setting Up your environment
-
-- You have 2 choices on how to do this:
-
-1. [Expo CLI](https://reactnative.dev/docs/environment-setup?guide=quickstart) | Default and recommended;
-2. [React Native CLI](https://reactnative.dev/docs/environment-setup?guide=native) | Alternative option;
-
-- Both approaches will give you a development env where you can build your apps;
-
-## Running the Project (Virtual Device)
-
-1. Run`yarn start`;
-2. Press `a` or run `yarn android`;
-   - Android Studio Emulator needs to be running before executing command;
-3. Press `i` or run `yarn ios`;
-   - If iOs Simulator does not work, run: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` in your terminal;
-4. Press `w` or run `yarn web`;
-
-- You can serve on both simulators at the same time, yes!
-- The reload process is automatically, but you can force it manually pressin `r` in the terminal;
-
-## Running the app on a Real Device (Preview)
-
-1. For iOS, visit the App Store and [download the Expo app](https://apps.apple.com/br/app/expo-go/id982107779);
-2. Open the terminal and run: `yarn start`;
-3. Get the QR Code on the terminal and scan it with your phone;
-4. Give phone permissions and wait it until gets loaded;
-5. Watch terminal for possible errors;
-
 ## Setting up a local development environment
 
 ### For Android

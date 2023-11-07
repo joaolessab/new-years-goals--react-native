@@ -6,6 +6,7 @@ Simple app that tracks our New Year's Goals, made using React Native.
 
 ## Table of Contents
 
+- [Technology Stack](#technology-stack-)
 - [Getting Started](#getting-started-)
   - [Introduction](#introduction)
     - [What's React Native?](#what-is-react-native)
@@ -15,14 +16,21 @@ Simple app that tracks our New Year's Goals, made using React Native.
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
 - [Running the Project](#running-the-project-%EF%B8%8F)
+  - [Virtual Device](#virtual-device)
+  - [Real Device (Preview)](#real-device)
 - [Project Structure](#project-structure-)
 - [Demo](#demo-)
-- [Technology Stack](#technology-stack-)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq-)
 - [Bonus](#bonus-)
   - [Creating a new Project with React Native](#creating-a-new-project-with-react-native)
   - [Setting up custom Fonts](#setting-up-custom-fonts)
 - [References](#references-)
+
+## Technology Stack 🛠
+
+This project was built using the following technologies and stacks:
+
+- [React Native](https://reactnative.dev/);
 
 ## Getting Started 🚀
 
@@ -71,6 +79,13 @@ Before you get started, ensure you have the following installed:
 
 - [Node.js and NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm);
 
+- You have 2 choices for the CLI:
+
+1. [Expo CLI](https://reactnative.dev/docs/environment-setup?guide=quickstart) | Default and recommended;
+2. [React Native CLI](https://reactnative.dev/docs/environment-setup?guide=native) | Alternative option;
+
+- Both approaches will give you a development env where you can build your apps;
+
 ### Installation
 
 Clone the repository and install the dependencies:
@@ -83,10 +98,25 @@ npm install
 
 ## Running the Project 🏃‍♂️
 
-Explain how to run the project. Include any specific steps, configurations, or commands that might be necessary.
+### Virtual Device
 
-- `react-native run-android` # For Android
-- `react-native run-ios` # For iOS
+1. Run`yarn start`;
+2. Press `a` or run `yarn android`;
+   - Android Studio Emulator needs to be running before executing command;
+3. Press `i` or run `yarn ios`;
+   - If iOs Simulator does not work, run: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` in your terminal;
+4. Press `w` or run `yarn web`;
+
+- You can serve on both simulators at the same time, yes!
+- The reload process is automatically, but you can force it manually pressin `r` in the terminal;
+
+### Real Device (Preview)
+
+1. For iOS, visit the App Store and [download the Expo app](https://apps.apple.com/br/app/expo-go/id982107779);
+2. Open the terminal and run: `yarn start`;
+3. Get the QR Code on the terminal and scan it with your phone;
+4. Give phone permissions and wait it until gets loaded;
+5. Watch terminal for possible errors;
 
 ## Project Structure 📁
 
@@ -105,12 +135,6 @@ Explain the structure of your project. Briefly describe what each folder/file co
 ## Demo 🎥
 
 https://github.com/joaolessab/goals-app--react-native/assets/21973502/d3b2c681-61e4-4e85-a4d1-edcbd5283d91
-
-## Technology Stack 🛠
-
-This project was built using the following technologies and stacks:
-
-- [React Native](https://reactnative.dev/);
 
 ## Frequently Asked Questions (FAQ) ❓
 
