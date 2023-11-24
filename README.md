@@ -1,6 +1,6 @@
 # New Year's Goals
 
-Simple app that tracks our New Year's Goals, made using React Native.
+Simple app that tracks your New Year's Goals, made using React Native.
 
 <img src="../main/docs/screens_dark.svg?raw=true#gh-dark-mode-only" width="800" height="450" />
 <img src="../main/docs/screens_light.svg?raw=true#gh-light-mode-only" width="800" height="450" />
@@ -125,7 +125,7 @@ yarn install
 
 ### Virtual Device
 
-1. Run`yarn start`;
+1. Run `yarn start`;
 2. Press `a` or run `yarn android`;
    - Android Studio Emulator needs to be running before executing command;
 3. Press `i` or run `yarn ios`;
@@ -149,11 +149,14 @@ Explain the structure of your project. Briefly describe what each folder/file co
 
     .
     ├── ...
-    ├── src                                 # Documentation files (alternatively `doc`)
-    │   |── ├── components/                 # Table of contents
+    ├── docs                                # Documentation files (alternatively `doc`)
+    ├── app                                 # App main folder
+    │   |── components/                     # Components broken into small pieces
+    │   |── assets/                         # Images, fonts and icons for the app
     │   |── ├──|── Component1.jsx.          # Frequently asked questions
-    │   ├── misc.md                         # Miscellaneous information
-    │   ├── usage.md                        # Getting started guide
+    │   ├── App.js                          # Main file of the project
+    │   ├── app.json                        # Basic settings of the app
+    │   ├── package.json                    # Libraries and dependencies of the project
     │   └── ...                             # etc.
     └── ...
 
