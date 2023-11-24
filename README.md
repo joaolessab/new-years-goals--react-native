@@ -2,7 +2,13 @@
 
 Simple app that tracks our New Year's Goals, made using React Native.
 
-<img src="../main/docs/images/image-1.png?raw=true" width="650" height="350" />`
+<img src="../main/docs/screen_1_light.svg?raw=true" width="650" height="350" />
+<img src="../main/docs/screen_2_light.svg?raw=true" width="650" height="350" />
+<img src="../main/docs/screen_3_light.svg?raw=true" width="650" height="350" />
+
+<img src="../main/docs/screen_1_dark.svg?raw=true" width="650" height="350" />
+<img src="../main/docs/screen_2_dark.svg?raw=true" width="650" height="350" />
+<img src="../main/docs/screen_3_dark.svg?raw=true" width="650" height="350" />
 
 ## Table of Contents
 
@@ -159,6 +165,8 @@ Explain the structure of your project. Briefly describe what each folder/file co
 ## Demo 🎥
 
 https://github.com/joaolessab/new-years-goals--react-native/assets/21973502/d3b2c681-61e4-4e85-a4d1-edcbd5283d91
+
+
 
 ## Frequently Asked Questions (FAQ) ❓
 
