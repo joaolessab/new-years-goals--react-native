@@ -153,7 +153,6 @@ Explain the structure of your project. Briefly describe what each folder/file co
     ├── app                                 # App main folder
     │   |── components/                     # Components broken into small pieces
     │   |── assets/                         # Images, fonts and icons for the app
-    │   |── ├──|── Component1.jsx.          # Frequently asked questions
     │   ├── App.js                          # Main file of the project
     │   ├── app.json                        # Basic settings of the app
     │   ├── package.json                    # Libraries and dependencies of the project
