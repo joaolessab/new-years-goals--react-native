@@ -2,8 +2,10 @@
 
 Simple app that tracks your New Year's Goals, made using React Native.
 
+<br/>
 <img src="../main/docs/screens_dark.svg?raw=true#gh-dark-mode-only" width="800" height="450" />
 <img src="../main/docs/screens_light.svg?raw=true#gh-light-mode-only" width="800" height="450" />
+<br/>
 
 ## Table of Contents
 
