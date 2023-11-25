@@ -145,8 +145,6 @@ yarn install
 
 ## Project Structure 📁
 
-Explain the structure of your project. Briefly describe what each folder/file contains.
-
     .
     ├── ...
     ├── docs                                # Documentation files (alternatively `doc`)
