@@ -25,6 +25,7 @@ Simple app that tracks your New Year's Goals, made using React Native.
   - [Real Device (Preview)](#real-device-preview)
 - [Project Structure](#project-structure-)
 - [Demo](#demo-)
+- [Debugging React Native Apps](#debugging-react-native-apps)
 - [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq-)
 - [Bonus](#bonus-)
   - [Creating a new Project with React Native](#creating-a-new-project-with-react-native)
@@ -133,6 +134,7 @@ yarn install
 3. Press `i` or run `yarn ios`;
    - If iOs Simulator does not work, run: `sudo xcode-select -s /Applications/Xcode.app/Contents/Developer` in your terminal;
 4. Press `w` or run `yarn web`;
+5. You might need to unlock the Emulator;
 
 - You can serve on both simulators at the same time, yes!
 - The reload process is automatically, but you can force it manually pressin `r` in the terminal;
@@ -163,7 +165,24 @@ yarn install
 
 https://github.com/joaolessab/new-years-goals--react-native/assets/21973502/d3b2c681-61e4-4e85-a4d1-edcbd5283d91
 
+## Debugging React Native Apps
 
+- Force the VS Code or any other text editor to log the issues in the console;
+
+### Debugging JS remotely
+
+- Press `?` in the terminal to see a ful list of commands;
+- Press `m` to toogle a menu;
+- Press `Enter` to open a menu;
+- Press `Open JS debugger`;
+
+<img src="../main/docs/debugger_menu.png?raw=true" width="800" height="450" />
+
+- A new tab on Chrome will pop-up and you can view the `Network` tab;
+- Press `r` so your app wil reload with the assets and the services used to load data;
+
+<img src="../main/docs/network_tab.png?raw=true" width="800" height="450" />
+<img src="../main/docs/console_log.png?raw=true" width="800" height="450" />
 
 ## Frequently Asked Questions (FAQ) ❓
 
