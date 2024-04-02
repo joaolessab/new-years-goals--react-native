@@ -184,6 +184,15 @@ https://github.com/joaolessab/new-years-goals--react-native/assets/21973502/d3b2
 <img src="../main/docs/network_tab.png?raw=true" width="800" height="450" />
 <img src="../main/docs/console_log.png?raw=true" width="800" height="450" />
 
+### React DevTools
+
+- Install it using `npm install -g react-devtools`;
+- Run it using `react-devtools`;
+- Restart the app pressing `r`;
+
+<img src="../main/docs/devtools.png?raw=true" width="800" height="450" />
+<img src="../main/docs/component-tree.png?raw=true" width="800" height="450" />
+
 ## Frequently Asked Questions (FAQ) ❓
 
 ### 1. Why common HTML does not work on React Native?
