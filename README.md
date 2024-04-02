@@ -190,8 +190,8 @@ https://github.com/joaolessab/new-years-goals--react-native/assets/21973502/d3b2
 - Run it using `react-devtools`;
 - Restart the app pressing `r`;
 
-<img src="../main/docs/devtools.png?raw=true" width="800" height="450" />
-<img src="../main/docs/component-tree.png?raw=true" width="800" height="450" />
+<img src="../main/docs/devtools.png?raw=true" width="600" height="450" />
+<img src="../main/docs/component-tree.png?raw=true" width="700" height="450" />
 
 ## Frequently Asked Questions (FAQ) ❓
 
