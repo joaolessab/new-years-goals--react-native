@@ -176,7 +176,7 @@ https://github.com/joaolessab/new-years-goals--react-native/assets/21973502/d3b2
 - Press `Enter` to open a menu;
 - Press `Open JS debugger`;
 
-<img src="../main/docs/debugger_menu.png?raw=true" width="800" height="450" />
+<img src="../main/docs/debugger_menu.png?raw=true" width="300" height="650" />
 
 - A new tab on Chrome will pop-up and you can view the `Network` tab;
 - Press `r` so your app wil reload with the assets and the services used to load data;
